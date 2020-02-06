@@ -4,6 +4,16 @@
 
 [1]: https://pypi.org/project/google-cloud-ndb/#history
 
+### [1.0.1](https://www.github.com/googleapis/python-ndb/compare/v1.0.0...v1.0.1) (2020-02-06)
+
+
+### Bug Fixes
+
+* correct migration doc ([#313](https://www.github.com/googleapis/python-ndb/issues/313)) ([#317](https://www.github.com/googleapis/python-ndb/issues/317)) ([efce24f](https://www.github.com/googleapis/python-ndb/commit/efce24f16a877aecf78264946c22a2c9e3e97f53))
+* don't set key on structured property entities ([#312](https://www.github.com/googleapis/python-ndb/issues/312)) ([63f3d94](https://www.github.com/googleapis/python-ndb/commit/63f3d943001d77c1ea0eb9b719e71ecff4eb5dd6)), closes [#281](https://www.github.com/googleapis/python-ndb/issues/281)
+* make query options convert projection properties to strings ([#325](https://www.github.com/googleapis/python-ndb/issues/325)) ([d1a4800](https://www.github.com/googleapis/python-ndb/commit/d1a4800c5f53490e6956c11797bd3472ea404b5b))
+* use multiple batches of limited size for large operations ([#321](https://www.github.com/googleapis/python-ndb/issues/321)) ([8e69453](https://www.github.com/googleapis/python-ndb/commit/8e6945377a4635632d0c35b7a41daebe501d4f0f)), closes [#318](https://www.github.com/googleapis/python-ndb/issues/318)
+
 ## [1.0.0](https://www.github.com/googleapis/python-ndb/compare/v0.2.2...v1.0.0) (2020-01-30)
 
 
